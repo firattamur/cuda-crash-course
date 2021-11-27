@@ -1,7 +1,9 @@
+Lecture 2 Notes:
+
 Unified Memory in GPU:
 
-    - With the unified memory programmer does not need to deal with host to device and device to host memory management. 
-
-    - We do not need to define host and device variables instead unified memory architecture will take of that. 
-
+ * Unified memory deal with the management of memory transfer between host and device.
+ * Programmer does not need to define host and device variables.
+ * Unified memory is slower because there is overhead of auto memory management.
+ * Synchonization is needed because there can be race condition between host and device on data. 
  
