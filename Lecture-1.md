@@ -1,3 +1,5 @@
+To check gcc - cuda compability: https://stackoverflow.com/a/46380601/16634193
+
 Lecture 1 - Notes:
 
   - Threads:
